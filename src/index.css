@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #ececec;
+}
+
+.center {
+    width: 300px;
+    margin: auto;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
+.appbar {
+    /* color: rgba(0, 0, 0, 0.87) !important;
+    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms !important;
+    position: fixed !important;
+    width: 69.4% !important; */
+}
+
+.fixedbar {
+    position: fixed;
+    width: 100%;
+    max-width: 1170px;
+    z-index: 2;
+}
+
+.btncontainer {
+    text-align: right;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+table td,
+table th {
+    font-size: 15px !important;
+}
+
+.search-box {
+    width: calc(100% - 20px);
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.btncontainer>div {
+    margin-right: 15px;
+}
